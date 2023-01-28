@@ -41,7 +41,18 @@ fun main(args: Array<String>){
     Задание № 5
      */
 
-    var range= "a" .. "d"
-    println(range)
+    var range= 'z' downTo  'a'
+
+    /*
+    Задание № 6
+     */
+
+    println("Введите первое число")
+    var enteredNumber: String? = readLine()
+    var a = enteredNumber?.toInt()
+    println("Введите второе число")
+    var enteredNumber1: String? = readLine()
+    var b = enteredNumber1?.toInt()
+    var c = a!! > b!!
 
 }
